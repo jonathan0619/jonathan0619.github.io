@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website Evaluation Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="image.jpg" alt="Website Logo" class="logo">
+        <div class="external-link">
+            <p>Explore more at <a href="https://www.ea.com/en-ca/sports" target="_blank">EA Sports</a></p>
+        </div>
+        <h1>Website Evaluation Form</h1>
+
+
+        <form id="evaluationForm">
+            <div class="question">
+                <label for="textQuestion">What is your overall impression of the website's design and layout?</label>
+                <input type="text" id="textQuestion" name="textQuestion">
+            </div>
+
+            <div class="question">
+                <label>Do you find the color scheme of the website visually appealing?</label>
+                <div class="radio-group">
+                    <input type="radio" id="option1" name="singleChoice" value="option1">
+                    <label for="option1">Yes</label>
+            
+                    <input type="radio" id="option2" name="singleChoice" value="option2">
+                    <label for="option2">No</label>
+                </div>
+            </div>
+            
+
+            <div class="question">
+                <label for="listQuestion">How would you rate the website's navigation ease on a scale of 1 to 5?</label>
+                <select id="listQuestion" name="listQuestion">
+                    <option value="choice1">1-Very Easy</option>
+                    <option value="choice2">2-Easy</option>
+                    <option value="choice2">3-Neutral</option>
+                    <option value="choice2">4-Hard</option>
+                    <option value="choice2">5-Very Hard</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="selectionQuestion">Which features of the website do you find most useful? (Select all that apply)</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox1" name="selectionQuestion" value="option1">
+                    <label for="checkbox1">User-Friendly Interface</label>
+            
+                    <input type="checkbox" id="checkbox2" name="selectionQuestion" value="option2">
+                    <label for="checkbox2">Quick Loading Time</label>
+            
+                    <input type="checkbox" id="checkbox3" name="selectionQuestion" value="option3">
+                    <label for="checkbox3">Clear and Informative Content</label>
+            
+                    <input type="checkbox" id="checkbox4" name="selectionQuestion" value="option4">
+                    <label for="checkbox4">Responsive Design</label>
+            
+                    <input type="checkbox" id="checkbox5" name="selectionQuestion" value="option5">
+                    <label for="checkbox5">Interactive Elements</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <label for="textQuestion">Are there any specific aspects of the website's design or functionality that you believe need improvement? Please provide details.</label>
+                <input type="text" id="textQuestion" name="textQuestion">
+            </div>
+
+            <div class="question">
+                <label>Would you recommend this website to a friend or colleague?</label>
+                <div class="radio-group">
+                    <input type="radio" id="option1" name="singleChoice" value="option1">
+                    <label for="option1">Yes</label>
+            
+                    <input type="radio" id="option2" name="singleChoice" value="option2">
+                    <label for="option2">No</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="signature">
+            <p>Website designed by Siji</p>
+        </div>
+    </div>
+</body>
+
+</html>
