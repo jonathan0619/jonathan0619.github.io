@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    padding-bottom: 60px; 
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333; 
+}
+
+
+.final-total {
+    text-align: center;
+    margin-top: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+}
+
+
+nav {
+    text-align: center;
+}
+
+
+#content h2 {
+    cursor: pointer;
+    color: green; 
+}
+
+
+button {
+    display: block;
+    margin: 10px auto; 
+}
